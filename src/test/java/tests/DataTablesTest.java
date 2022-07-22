@@ -17,7 +17,7 @@ public class DataTablesTest extends BaseTest {
         String lastName = driver.findElement(By.xpath("//table[@id='table1']//td[text()='fbach@yahoo.com']//preceding-sibling::td[2]")).getText();
         //Check firstName and lastName
         Assert.assertEquals(lastName, "Bach");
-        Assert.assertEquals(lastName, "Bach");
+        Assert.assertEquals(firstName, "Frank");
 
     }
     @Test
