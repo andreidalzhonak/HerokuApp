@@ -13,7 +13,6 @@ public class AddRemoveElementsPageFactoryTest extends BaseTest {
         addRemoveElementsPageFactory.clickAddElement();
         //Add check
         Assert.assertEquals(addRemoveElementsPageFactory.checkElement(), 2);
-
     }
 
     @Test

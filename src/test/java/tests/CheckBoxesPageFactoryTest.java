@@ -20,7 +20,6 @@ public class CheckBoxesPageFactoryTest extends BaseTest {
         Assert.assertTrue(checkboxesPageFactory.Checkboxes());
     }
 
-
     @Test
     public void checkbox2IsCheckedTest() {
         CheckboxesPageFactory checkboxesPageFactory = new CheckboxesPageFactory(driver);

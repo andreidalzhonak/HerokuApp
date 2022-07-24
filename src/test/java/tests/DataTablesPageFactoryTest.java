@@ -14,7 +14,6 @@ public class DataTablesPageFactoryTest extends BaseTest {
         Assert.assertEquals(dataTablesFactoryPage.findFirstName(), "Frank");
         Assert.assertEquals(dataTablesFactoryPage.findLastName(), "Bach");
     }
-
     @Test
     public void checkDueAndSiteTest() {
         DataTablesFactoryPage dataTablesFactoryPage = new DataTablesFactoryPage(driver);
