@@ -24,7 +24,8 @@ public class FileUploadPageFactory extends BaseFactoryPage {
     }
 
     public void addPage() {
-        choseFail.sendKeys("C:\\Users\\anduser\\IdeaProjects\\HerokuApp\\src\\test\\resources\\Screenshot_1.jpg");
+        String path = System.getProperty("user.dir").concat("/src/test/resources/Screenshot_1.jpg");
+        choseFail.sendKeys(path);
     }
 
     public void clickUpload() {
